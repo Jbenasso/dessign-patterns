@@ -7,6 +7,7 @@ public class Troll extends Character {
 
     @Override
     public String toString() {
-        return "Troll " + name;
+        return "Troll " + name + "\n" +
+               "/^\\";
     }
 }

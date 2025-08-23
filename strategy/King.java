@@ -7,6 +7,7 @@ public class King extends Character {
 
     @Override
     public String toString() {
-        return "King " + name;
+        return "King " + name + "\n" +
+               "__/^^^\\__";
     }
 }

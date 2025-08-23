@@ -7,6 +7,8 @@ public class Knight extends Character {
 
     @Override
     public String toString() {
-        return "Knight " + name;
+        return "Knight " + name + "\n" +
+               " __\n" +
+               "(--)";
     }
 }
