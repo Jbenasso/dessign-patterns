@@ -3,9 +3,10 @@ package observer;
 /**
  * Watchman class, issues warning notices (army, breach).
  * Extends Subject in the Observer design pattern.
-
+ * 
+ * @author Josefa B
  */
-public class watchman extends Subject {
+public class Watchman extends Subject {
 
     /**
      * Issues a notice and notifies observers.

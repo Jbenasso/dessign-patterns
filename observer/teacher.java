@@ -3,8 +3,10 @@ package observer;
 /**
  * Teacher class, an observer that reacts to both Greeter and Watchman notices.
  * Implements Observer in the Observer design pattern.
+ * 
+ * @author Josefa B
  */
-public class teacher implements observer {
+public class Teacher implements Observer {
 
     /**
      * Constructs a Teacher and registers it with the given subjects.
@@ -12,7 +14,7 @@ public class teacher implements observer {
      * @param watchman the Watchman subject
      * @param greeter  the Greeter subject
      */
-    public teacher(subject watchman, subject greeter) {
+    public Teacher(Subject watchman, Subject greeter) {
         watchman.registerObserver(this);
         greeter.registerObserver(this);
     }

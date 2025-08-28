@@ -4,9 +4,9 @@ package observer;
  * Observer interface for the Observer design pattern.
  * Implementing classes will react to notifications issued by a Subject.
  * 
- * @author Josefa Benasso :)
+ * @author Josefa B
  */
-public interface observer {
+public interface Observer {
 
     /**
      * Called when a Subject notifies its observers.

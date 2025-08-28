@@ -3,6 +3,8 @@ package observer;
 /**
  * Greeter class, issues positive notices (messenger, royalty).
  * Extends Subject in the Observer design pattern.
+ * 
+ * @author Josefa B
  */
 public class Greeter extends Subject {
 

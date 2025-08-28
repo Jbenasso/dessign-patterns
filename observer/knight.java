@@ -4,9 +4,9 @@ package observer;
  * Knight class, an observer that reacts to both Greeter and Watchman notices.
  * Implements Observer in the Observer design pattern.
  * 
- * @author Your Name
+ * @author Josefa B
  */
-public class knight implements observer {
+public class Knight implements Observer {
 
     /**
      * Constructs a Knight and registers it with the given subjects.
@@ -14,7 +14,7 @@ public class knight implements observer {
      * @param watchman the Watchman subject
      * @param greeter  the Greeter subject
      */
-    public knight(subject watchman, subject greeter) {
+    public Knight(Subject watchman, Subject greeter) {
         watchman.registerObserver(this);
         greeter.registerObserver(this);
     }

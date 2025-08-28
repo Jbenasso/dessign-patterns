@@ -4,9 +4,9 @@ package observer;
  * ShopOwner class, an observer that reacts to both Greeter and Watchman notices.
  * Implements Observer in the Observer design pattern.
  * 
- * @author Your Name
+ * @author Josefa B
  */
-public class shopowner implements observer {
+public class ShopOwner implements Observer {
 
     /**
      * Constructs a ShopOwner and registers it with the given subjects.
@@ -14,7 +14,7 @@ public class shopowner implements observer {
      * @param watchman the Watchman subject
      * @param greeter  the Greeter subject
      */
-    public shopowner(subject watchman, subject greeter) {
+    public ShopOwner(Subject watchman, Subject greeter) {
         watchman.registerObserver(this);
         greeter.registerObserver(this);
     }

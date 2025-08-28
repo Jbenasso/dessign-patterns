@@ -5,9 +5,10 @@ import java.util.ArrayList;
 /**
  * Abstract class representing a Subject in the Observer design pattern.
  * A Subject maintains a list of observers and notifies them of changes.
-
+ * 
+ * @author Josefa B
  */
-public abstract class subject {
+public abstract class Subject {
     protected ArrayList<Observer> observers;
 
     /**
