@@ -1,0 +1,4 @@
+Saguaro , Austin Moffa , singleton/Songs/Austin-Moffa-Saguaro.wav
+Sonate, Philippe Bray, singleton/Songs/Sonate.wav
+Voodo Doll, Sean Ferree, singleton/Songs/Sean-Ferree-Voodoo-Doll.wav
+Mazing, VME, singleton/Songs/VME-Mazing.wav
